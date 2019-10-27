@@ -20,5 +20,5 @@ app.get('/', function(req, res) {
 app.use('/api/todos', todoRoutes);
 
 app.listen(PORT, function() {
-    console.log('App is running on port ' + port)
+    console.log('App is running on port ' + PORT)
 });
